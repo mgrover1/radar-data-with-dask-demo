@@ -1,0 +1,33 @@
+name: radar-dask-demo-dev
+channels:
+  - conda-forge
+  - pyviz
+  - nodefaults
+dependencies:
+  - python>=3.9
+  - geoviews
+  - hvplot
+  - pydata-sphinx-theme
+  - pip
+  - myst-parser
+  - sphinx
+  - sphinx-copybutton
+  - nbsphinx
+  - ipykernel
+  - h5netcdf
+  - h5py
+  - lat_lon_parser
+  - netCDF4==1.6.0
+  - pyproj
+  - xarray
+  - xarray-datatree>=0.0.10
+  - xmltodict
+  - cartopy
+  - dask
+  - matplotlib-base
+  - xradar
+  - arm_pyart
+  - jupyterlab
+  - scipy
+  - pip:
+    - git+https://github.com/openradar/open-radar-data.git
