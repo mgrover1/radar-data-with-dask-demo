@@ -1,4 +1,4 @@
-# radar-data-with-dask-demo
+#  Scaling weather radar data analysis with Dask
 Notebooks for Dask Demo Day 3/16/23
 
 
